@@ -1,5 +1,7 @@
 # mailcow-dockerized Simple Mail Setup Tutorial
 
+##**Learn more about Mailcow: https://mailcow.email, as well as their official documentation: https://docs.mailcow.email
+
 This tutorial will describe how to set up your mailcow server on ubuntu-based systems for simple mail 
 
 ## Running setup.sh, and Installation
