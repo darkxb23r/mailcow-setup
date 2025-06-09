@@ -25,7 +25,7 @@ To change your admin username/password, in the top right corner navigate to ``Sy
 
 ### Adding your Domains
 
-Navigate to E-Mail > Configuration > Domains to view the domain panel. To add a new domain, click ``Add Domain``. 
+Navigate to ``E-Mail > Configuration > Domains`` to view the domain panel. To add a new domain, click ``Add Domain``. 
 You can keep most of the settings the same, unless you require specific settings.
 
 To create a mailbox, you will need to fill out the Domain and Description boxes. The other settings don't require configuration, unless you are looking for specific settings
@@ -36,7 +36,7 @@ After filling out your config, click ``Add domain and restart SOGo``
 
 After adding your domain(s), You will need to configure your DNS records with your DNS provider
 
-In E-Mail > Configuration > Domains, Click  ``DNS`` for the domain whos records you are configuring. mailcow will show you the status of your records, as well as which records you will need to set up. Entries that suffix with ``2`` in the Current State row Are optional
+In ``E-Mail > Configuration > Domains``, Click  ``DNS`` for the domain whos records you are configuring. mailcow will show you the status of your records, as well as which records you will need to set up. Entries that suffix with ``2`` in the Current State row Are optional
 
 ## Setting Up Mailboxes & Accessing SOGo
 
