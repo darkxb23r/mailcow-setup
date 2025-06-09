@@ -3,7 +3,7 @@
 # Update and install Docker
 sudo apt update
 
-sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+sudo apt install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg |  apt-key add -
 
@@ -11,7 +11,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt update
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 
 # Verify that docker installed correctly
@@ -19,7 +19,7 @@ sudo docker run hello-world
 
 # Install Docker-Compose
 
-sudo apt install docker-compose
+sudo apt install -y docker-compose
 
 # Verify that Docker-Compose installed, Currenty Version: 2.37.0, and add your user to the docker group
 
